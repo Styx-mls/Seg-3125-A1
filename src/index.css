@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Quicksand:wght@500;600;700&display=swap');
+
+body,h4,h5{
+    font-family: 'Inter',sans-serif;
+}
+h2,h3{
+    font-family: 'Quicksand',sans-serif;
+}
+
+:root {
+    --bg-color: #d1fae5;
+    --card-color: #ffffff;
+    --accent-color: #10b981;
+    --text-color: #111827;
+    --border-color: #d1d5db;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+.card {
+    background-color: var(--card-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+a:hover {
+    color: var(--accent-color) !important;
+}
+
+.p-box,.intro-box{
+    background-color: #ecfdf5;
+}
+h2{
+    font-weight : 900;
+}
+.h-box{
+    background-color: white !important;
+}
