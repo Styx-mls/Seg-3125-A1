@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Portfolio() {
   return (
@@ -30,8 +30,8 @@ export default function Portfolio() {
         </h2>
 
         <p>
-          I am a student of software engineering at the University of Ottawa.
-          Interested in machine learning, UI/UX design and full stack
+          I am a student of Software Engineering at the University of Ottawa.
+          Interested in machine learning, UI/UX design, and full-stack
           development. I am currently developing my frontend skills through SEG
           3125.
         </p>
@@ -47,6 +47,7 @@ export default function Portfolio() {
           className="d-flex gap-4 justify-content-center flex-wrap"
           style={{ marginTop: "20px" }}
         >
+          {/* Service Site */}
           <div className="card" style={{ width: "11rem" }}>
             <img
               src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0"
@@ -74,26 +75,40 @@ export default function Portfolio() {
             </div>
           </div>
 
+          {/* Memo */}
           <div className="card" style={{ width: "11rem" }}>
             <img
               src="https://plus.unsplash.com/premium_photo-1676879781067-75642b342eb1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVtb3J5fGVufDB8fDB8fHww"
               className="card-img-top"
-              alt="Project Image"
+              alt="Memo memory game"
               style={{ height: "160px", objectFit: "cover" }}
             />
 
             <div className="card-body">
-              <h5 className="card-title">Memory Game</h5>
+              <h5 className="card-title">Memo</h5>
 
-              <p className="card-text">Coming Soon</p>
+              <p className="card-text">
+                Browser-based short-term memory game with multiple difficulty
+                levels and a dedicated Kid Mode.
+              </p>
+
+              <a
+                href="YOUR_VERCEL_LINK_HERE"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
+                View Site
+              </a>
             </div>
           </div>
 
+          {/* E-Commerce */}
           <div className="card" style={{ width: "11rem" }}>
             <img
               src="https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RSUyMGNvbW1lcmNlfGVufDB8fDB8fHww"
               className="card-img-top"
-              alt="Project Image"
+              alt="E-Commerce project"
               style={{ height: "160px", objectFit: "cover" }}
             />
 
@@ -104,11 +119,12 @@ export default function Portfolio() {
             </div>
           </div>
 
+          {/* Analytics */}
           <div className="card" style={{ width: "11rem" }}>
             <img
               src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QW5hbHl0aWNzfGVufDB8fDB8fHww"
               className="card-img-top"
-              alt="Project Image"
+              alt="Analytics project"
               style={{ height: "160px", objectFit: "cover" }}
             />
 
