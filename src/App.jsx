@@ -93,7 +93,7 @@ export default function Portfolio() {
               </p>
 
               <a
-                href="YOUR_VERCEL_LINK_HERE"
+                href="https://memo-six-tau.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary"
