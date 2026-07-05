@@ -104,20 +104,33 @@ export default function Portfolio() {
           </div>
 
           {/* E-Commerce */}
-          <div className="card" style={{ width: "11rem" }}>
-            <img
-              src="https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RSUyMGNvbW1lcmNlfGVufDB8fDB8fHww"
-              className="card-img-top"
-              alt="E-Commerce project"
-              style={{ height: "160px", objectFit: "cover" }}
-            />
+<div className="card" style={{ width: "11rem" }}>
+  <img
+    src="https://plus.unsplash.com/premium_photo-1681488262364-8aeb1b6aac56?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RSUyMGNvbW1lcmNlfGVufDB8fDB8fHww"
+    className="card-img-top"
+    alt="E-Commerce project"
+    style={{ height: "160px", objectFit: "cover" }}
+  />
 
-            <div className="card-body">
-              <h5 className="card-title">E-Commerce Site</h5>
+  <div className="card-body">
+    <h5 className="card-title">E-Commerce Site</h5>
 
-              <p className="card-text">Coming Soon</p>
-            </div>
-          </div>
+    <p className="card-text">
+      Soccer equipment e-commerce site with product filtering, cart, checkout,
+      and survey.
+    </p>
+
+    <a
+      href="https://goalzone-ecommerce.vercel.app"
+      target="_blank"
+      rel="noreferrer"
+      className="btn btn-primary"
+    >
+      View Site
+    </a>
+  </div>
+</div>
+
 
           {/* Analytics */}
           <div className="card" style={{ width: "11rem" }}>
