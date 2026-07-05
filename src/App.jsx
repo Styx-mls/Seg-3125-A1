@@ -121,7 +121,7 @@ export default function Portfolio() {
     </p>
 
     <a
-      href="https://goalzone-ecommerce.vercel.app"
+      href="e-commerce-site-beta-henna.vercel.app"
       target="_blank"
       rel="noreferrer"
       className="btn btn-primary"
