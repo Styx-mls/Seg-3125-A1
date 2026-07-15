@@ -214,9 +214,11 @@ body {
 
 .section-heading h2 {
   margin: 0;
+  color: #f4f7ff;
   font-size: 64px;
-  font-weight: 750;
+  font-weight: 800;
   letter-spacing: -3px;
+  text-shadow: 0 0 24px rgba(93, 155, 255, 0.18);
 }
 
 .projects-grid {
