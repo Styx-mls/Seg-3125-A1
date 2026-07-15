@@ -92,8 +92,12 @@ body {
   font-weight: 800;
 }
 
-.hero-content h1 span {
+.hero-content h1 {
   color: #5d9bff;
+}
+
+.hero-content h1 span {
+  color: #ffffff;
 }
 
 .hero-description {
