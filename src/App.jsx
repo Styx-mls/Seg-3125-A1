@@ -35,12 +35,12 @@ export default function App() {
     {
       title: "Analytics Site",
       description:
-        "Interactive NHL analytics dashboard for comparing player performance across multiple seasons.",
-      image:
-        "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QW5hbHl0aWNzfGVufDB8fDB8fHww",
-      alt: "Analytics project",
-      link: null,
-      label: "DATA VISUALIZATION",
+    "Interactive NHL analytics dashboard for comparing player performance across multiple seasons.",
+    image:
+    "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QW5hbHl0aWNzfGVufDB8fDB8fHww",
+  alt: "NHL analytics dashboard",
+  link: "https://nhl-dashboard-rho.vercel.app",
+  label: "DATA VISUALIZATION",
     },
   ];
 
